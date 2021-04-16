@@ -1,13 +1,15 @@
 \mode<presentation>
 
-
+\graphicspath{{./images/}}
 
 \setbeamertemplate{background}{
   \begin{tikzpicture}
   \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-  \fill[color=dark-math] (\the\paperwidth,7.9) -- (0,8.9) -- (0,\the\paperheight) -- (\the\paperwidth,\the\paperheight);
-  \fill[color=light-math] (\the\paperwidth,7.7) -- (0,8.8) -- (0,9) -- (\the\paperwidth,8);
-
+  \fill[color=dark-math] (0,8.8) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
+  \fill[color=light-math ] (0,9.1) to[out = 0 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  -- (0,\the\paperheight) ;
+  
+  \node[inner sep=0pt] (logo) at (11.9,8.8)
+      {\includegraphics[width=1.5cm]{logo.png}};
   \end{tikzpicture}
 }
 
