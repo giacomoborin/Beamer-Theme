@@ -2,6 +2,15 @@
 
 
 
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \fill[color=dark-math] (\the\paperwidth,7.9) -- (0,8.9) -- (0,\the\paperheight) -- (\the\paperwidth,\the\paperheight);
+  \fill[color=light-math] (\the\paperwidth,7.7) -- (0,8.8) -- (0,9) -- (\the\paperwidth,8);
+
+  \end{tikzpicture}
+}
+
 % Title page
 \defbeamertemplate*{title page}{beuntin}[1][]
 { 
