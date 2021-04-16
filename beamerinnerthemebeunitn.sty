@@ -1,0 +1,24 @@
+\mode<presentation>
+
+
+
+% Title page
+\defbeamertemplate*{title page}{beuntin}[1][]
+{ 
+   \vskip6cm%
+    \begin{beamercolorbox}[wd=12cm,leftskip=3cm,sep=8pt,#1]{title page header}
+      \usebeamerfont{title}\inserttitle\par%
+    \end{beamercolorbox}%
+    \vskip0.75cm%
+    \begin{beamercolorbox}[wd=12cm,leftskip=3cm,#1]{author}
+      \usebeamerfont{author}\insertauthor%
+    \end{beamercolorbox}
+     \vskip0.2cm%
+    \begin{beamercolorbox}[wd=12cm,leftskip=3cm,#1]{date}
+      \usebeamerfont{author}\insertdate%
+    \end{beamercolorbox}
+  \vfill
+}
+
+\mode
+<all>
