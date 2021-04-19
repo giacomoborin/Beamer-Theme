@@ -1,0 +1,20 @@
+\mode<presentation>
+
+% Frame title
+\defbeamertemplate*{frametitle}{texsx}[1][]
+{
+\vskip1cm%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1.2cm]{frametitle} 
+  \begin{tikzpicture}
+  \useasboundingbox[](0,0) rectangle(\the\paperwidth,1.2);
+   \ifx\insertframesubtitle\@empty%
+      {\node[anchor=west, dark-math,font=\textbf\large] at (1.2,0.61){\insertframetitle};}
+      \else%
+      {\node[anchor= west, black,font=\large] at (1.2,0.81){\insertframetitle};%
+       \node[anchor= west, black,font=\small] at (1.2,0.41){\insertframesubtitle};}%
+      \fi
+  \end{tikzpicture}
+  \end{beamercolorbox}
+}
+%\useoutertheme[ right/left , height=2]{sidebar} %todo: sistemare
+\mode<all>
