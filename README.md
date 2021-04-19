@@ -7,7 +7,12 @@ Version: 2021
 ## HOW TO USE:
 At the current state, the theme is incomplete. See `NOTES` for a dummy test of its functionality. We'll try to fully release it as soon as possible. 
 
-In order to use it you will have to insert in your main folder the four .sty file, add into a `images` folder the images you'll also find here, and lastly call the `\usetheme{beunitn}` command in your beamer document. You should be able to customise it according to your preferences.
+In order to use it you will have to 
+1. insert in your main folder the four .sty files 
+2. add into a `images` folder the images you'll also find here
+3. call the `\usetheme{beunitn}` command in your beamer document. 
+
+You should be able to folly customise the theme according to your preferences.
 
 ## HOW TO CONTRIBUTE: 
 It is possible to contribute to the development by testing the package and informing us of possible errors or limitations. Check `NOTES` for more info. 
