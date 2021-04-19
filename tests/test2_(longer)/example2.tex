@@ -3,13 +3,33 @@
 \usepackage{lipsum}
 \usepackage{todonotes}
 
-%todo: ovviamente, questo andrà cambiato
-\usepackage{../../beamerthemebeunitn}
+%Macro for solving path problem in theme calling
+\makeatletter
+  \def\beamer@calltheme#1#2#3{%
+    \def\beamer@themelist{#2}
+    \@for\beamer@themename:=\beamer@themelist\do
+    {\usepackage[{#1}]{\beamer@themelocation/#3\beamer@themename}}}
 
+  \def\usefolder#1{
+    \def\beamer@themelocation{#1}
+  }
+  \def\beamer@themelocation{}
+  
+\graphicspath{{../../}}
+
+%todo: ovviamente, questo andrà cambiato
+%\usepackage{../../beamerthemebeunitn}
+
+\usefolder{../../}
+\usetheme{beunitn}
 
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
 
+%Bibliography
+\usepackage[style=numeric, maxnames=4,backend=bibtex]{biblatex}
+% other styles: numeric authortitle
+\addbibresource{biblio.bib}
 
 \title{Un breve test}
 \subtitle{esempio di applicazione del template}
@@ -80,6 +100,16 @@
         \lipsum[66]
     \end{alertblock}
     \beamerskipbutton{Bottone finto}
+\end{frame}
+
+\begin{frame}
+	\nocite{CF} Come ha detto il caro \cite{RAM} \newline
+	\pause
+	\fullcite{SIN}
+\end{frame}
+
+\begin{frame}{Bibliografia}
+	\printbibliography[heading=none]
 \end{frame}
 
 \begin{frame}
