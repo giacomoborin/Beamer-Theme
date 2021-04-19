@@ -5,5 +5,6 @@ As of now, this is a non-official project. The theme will follow current guideli
 Version: 2021
 
 HOW TO USE: [todo]
+This theme is currently incomplete, but it's possible to test it (see: tests folder).
 
 NOTES: [todo]
