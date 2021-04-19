@@ -21,6 +21,8 @@ It is possible to contribute to the development by testing the package and infor
 - If you are italian, [this PDF](https://www.guitex.org/home/images/doc/GuideGuIT/intropersbeamer.pdf) will help you a lot.
 
 ## NOTES:
-This theme is currently incomplete, but it's possible to use it. It's also possible to just test it (see: `tests` folder).
+This theme is currently incomplete, but it's possible to use it. It's also possible to just test it (see: `tests` folder). 
+
+To edit the README file: [useful info](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 
 
