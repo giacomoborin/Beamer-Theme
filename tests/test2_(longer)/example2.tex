@@ -4,28 +4,12 @@
 \usepackage{todonotes}
 
 %todo: ovviamente, questo andrà cambiato.
-\mode<presentation>
-{
-  \usetheme{Luebeck}      
-  \usecolortheme{orchid} 
-  \usefonttheme{structuresmallcapsserif}  
-  \setbeamertemplate{navigation symbols}{}
-  \setbeamertemplate{caption}[numbered]
-} 
+\usetheme{beunitn}
+
 
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
 
-\AtBeginSection[]{
-  \begin{frame}
-  \vfill
-  \centering
-  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
-    \usebeamerfont{title}\insertsectionhead\par%
-  \end{beamercolorbox}
-  \vfill
-  \end{frame}
-}
 
 \title{Un breve test}
 \subtitle{esempio di applicazione del template}
@@ -34,6 +18,7 @@
 \date{30 febbraio 2042}
 
 \begin{document}
+% c'è un overfull hbox, ma tanto è solo un dummy test
 
 \begin{frame}
   \titlepage
@@ -59,8 +44,7 @@
 
 \section{Altro titolo sezione}
 \subsection{Sottosezione}
-
-\begin{frame}{}
+\begin{frame}{Questo è un frame dal titolo decisamente lungo}
     \textbf{Dal vangelo secondo Lipsum:} \\
     \pause
     \textit{\lipsum[75]} \\ 
