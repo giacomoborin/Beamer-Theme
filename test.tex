@@ -1,0 +1,102 @@
+\documentclass{beamer}
+
+\usepackage{lipsum}
+\usepackage{todonotes}
+
+%todo: ovviamente, questo andrà cambiato.
+\mode<presentation>
+{
+  \usetheme{Luebeck}      
+  \usecolortheme{orchid} 
+  \usefonttheme{structuresmallcapsserif}  
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+\title{Un breve test}
+\subtitle{esempio di applicazione del template}
+\author{autori vari}
+\institute{Università di Trento}
+\date{30 febbraio 2042}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Contenuti}
+  \tableofcontents
+\end{frame}
+
+\section{Titolo sezione}
+
+\begin{frame}{Questo è un frame}
+    \begin{block}{Un blocco di testo importante}
+        \lipsum[66]
+    \end{block}
+    \pause
+    \begin{itemize}
+      \item \textbf{un punto}: posso scrivere cose
+      \pause
+      \item \textbf{altro punto}: posso scriverle due volte
+    \end{itemize}
+\end{frame}
+
+\section{Altro titolo sezione}
+\subsection{Sottosezione}
+
+\begin{frame}{}
+    \textbf{Dal vangelo secondo Lipsum:} \\
+    \pause
+    \textit{\lipsum[75]} \\ 
+    (Lipsum, 75)
+\end{frame}
+
+\subsection{Seconda sottosezione}
+
+\begin{frame}{Formule}
+    \[
+    \mathcal L_{\mathcal T}(\vec{\lambda})
+    = \sum_{(\mathbf{x},\mathbf{s})\in \mathcal T}
+       \log P(\mathbf{s}\mid\mathbf{x}) - \sum_{i=1}^m
+       \frac{\lambda_i^2}{2\sigma^2}
+    \]
+\end{frame}
+
+\begin{frame}{Formule 2}
+    \begin{align*}
+        S(\omega) 
+        &= \frac{\alpha g^2}{\omega^5} e^{[ -0.74\bigl\{\frac{\omega U_\omega         19.5}{g}\bigr\}^{\!-4}\,]} \\
+        &= \frac{\alpha g^2}{\omega^5} \exp\Bigl[ -0.74\Bigl\{\frac{\omega       U_\omega 19.5}{g}\Bigr\}^{\!-4}\,\Bigr] 
+    \end{align*}
+\end{frame}
+
+
+\begin{frame}{Il problema delle immagini}
+    \missingfigure[figwidth=6cm]{immagine a caso}
+\end{frame}
+
+\begin{frame}{Conclusione}
+    \begin{alertblock}{Una frase profonda e filosofica}
+        \lipsum[66]
+    \end{alertblock}
+\end{frame}
+
+\end{document}
+
+
