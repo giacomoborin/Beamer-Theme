@@ -5,11 +5,11 @@
 \setbeamertemplate{background}{
   \begin{tikzpicture}
   \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-  \fill[color=dark-math] (0,8.8) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
-  \fill[color=light-math ] (0,9.1) to[out = 0 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  -- (0,\the\paperheight) ;
+  \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
+  \fill[color=light-math ] (5,29.1) to[out = 0 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  -- (0,\the\paperheight) ;
   
-  \node[inner sep=0pt] (logo) at (11.9,8.8)
-      {\includegraphics[width=1.5cm]{images/logo_white.png}};
+  \node[inner sep=0pt] (logo) at (12.0,8.8)
+      {\includegraphics[width=1.3cm]{images/logo_white.png}};
   \end{tikzpicture}
 }
 
@@ -93,6 +93,37 @@
     \vskip0.5pt%
 }{}
 
+
+\mode
+<all>
+
+%Section 
+\setbeamertemplate{section page}
+{
+	
+	\vskip0.5cm
+  \begin{centering}
+	  \textcolor{white}{
+	  \usebeamerfont{section title} 
+	  \insertsection}
+	  \par
+  \end{centering}   
+}
+%Show section
+\AtBeginSection{
+\begingroup
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \fill[color=light-math] (0,4.5) rectangle (\the\paperwidth,6) ;
+  \fill[color=dark-math ] (0,4.9) rectangle (\the\paperwidth,4.5) ;
+  
+  \node[inner sep=0pt] (logo) at (6.4,7)
+      {\includegraphics[width=1.5cm]{logo.png}};
+  \end{tikzpicture}
+}
+\frame{\sectionpage}
+\endgroup}
 
 \mode
 <all>
