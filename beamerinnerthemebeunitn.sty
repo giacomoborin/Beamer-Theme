@@ -38,7 +38,7 @@
 \setbeamertemplate{section page}
 {
 	
-	\vskip0.5cm
+	\vskip0.6cm
   \begin{centering}
 	  \textcolor{white}{
 	  \usebeamerfont{section title} 
@@ -61,6 +61,19 @@
 }
 \frame{\sectionpage}
 \endgroup}
+
+%%Roba trovata online a caso, forse si può usare per al progress bar
+%\setbeamertemplate{progress bar in section page}{
+%  \setlength{\metropolis@progressonsectionpage}{%
+%    \textwidth * \ratio{\thesection pt}{\totvalue{totalsection} pt}%
+%  }%
+%  \begin{tikzpicture}
+%    \fill[bg] (0,0) rectangle (\textwidth, \metropolis@progressonsectionpage@linewidth);
+%    \fill[fg] (0,0) rectangle (\metropolis@progressonsectionpage, \metropolis@progressonsectionpage@linewidth);
+%  \end{tikzpicture}%
+%}
+
+
 
 %footline
 \addtobeamertemplate{footline}{
