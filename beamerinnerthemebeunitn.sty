@@ -1,14 +1,40 @@
 \mode<presentation>
 
 
+%% Scuro - chiaro
+%\setbeamertemplate{background}{
+%  \begin{tikzpicture}
+%  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+%  \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
+%  \fill[color=light-math ] (5,29.1) to[out = 0 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  -- (0,\the\paperheight) ;
+%  
+%  \node[inner sep=0pt] (logo) at (12.0,8.8)
+%      {\includegraphics[width=1.3cm]{images/logo_white.png}};
+%  \end{tikzpicture}
+%}
 
+%%Scuro - Scritta - Chiaro -Scuro
+%\setbeamertemplate{background}{
+%  \begin{tikzpicture}
+%  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+%  \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
+%  \fill[color=light-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,7.7)  to[out = 170 , in = 290 ] (10.1,\the\paperheight) ;
+%  \fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
+%  
+%  \node[inner sep=0pt] (logo) at (12.0,8.8)
+%      {\includegraphics[width=1.3cm]{images/logo_white.png}};
+%  \end{tikzpicture}
+%}
+
+%Scuro - Scritta - Chiaro -Scuro
 \setbeamertemplate{background}{
   \begin{tikzpicture}
   \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
   \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
-  \fill[color=light-math ] (5,29.1) to[out = 0 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  -- (0,\the\paperheight) ;
+  \fill[color=light-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,7.7)  to[out = 170 , in = 0 ] (0,8.8) -- (0 , \the\paperheight);
+  \fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
   
-  \node[inner sep=0pt] (logo) at (12.0,8.8)
+  \node[inner sep=0pt] (logo) at (12.05,8.85)
       {\includegraphics[width=1.3cm]{images/logo_white.png}};
   \end{tikzpicture}
 }
@@ -97,6 +123,22 @@
 \mode
 <all>
 
+%Progress
+\newlength{\metropolis@progressonsectionpage}
+\newlength{\metropolis@progressonsectionpage@linewidth}
+\setlength{\metropolis@progressonsectionpage@linewidth}{0.4pt}
+\setbeamertemplate{progress bar in section page}{
+  \setlength{\metropolis@progressonsectionpage}{%
+    \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
+  }%
+  \tikzexternaldisable%
+  \begin{tikzpicture}
+    \fill[bg] (0,0) rectangle (\textwidth, \metropolis@progressonsectionpage@linewidth);
+    \fill[fg] (0,0) rectangle (\metropolis@progressonsectionpage, \metropolis@progressonsectionpage@linewidth);
+  \end{tikzpicture}%
+  \tikzexternalenable%
+}
+
 %Section 
 \setbeamertemplate{section page}
 {
@@ -118,8 +160,8 @@
   \fill[color=light-math] (0,4.5) rectangle (\the\paperwidth,6) ;
   \fill[color=dark-math ] (0,4.9) rectangle (\the\paperwidth,4.5) ;
   
-  \node[inner sep=0pt] (logo) at (6.4,7)
-      {\includegraphics[width=1.5cm]{logo.png}};
+  \node[inner sep=0pt] (images/logo.png) at (6.4,7)
+      {\includegraphics[width=1.5cm]{images/logo.png}};
   \end{tikzpicture}
 }
 \frame{\sectionpage}
