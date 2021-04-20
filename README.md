@@ -8,8 +8,8 @@ Latest version: spring 2021
 At the current state, the theme is incomplete. No beta release is yet available, we will try to fully release it as soon as possible. However, if you're insist on using it, keep on reading.
 
 In order to use it you will have to 
-1. insert in your main folder the four .sty files 
-2. add into a `images` folder the images you'll also find here
+1. insert in your main folder the four .sty files you will find here,
+2. add into an `images` folder the images you'll also find here,
 3. call as usual the `\usetheme{beunitn}` command in your beamer document. 
 
 You should be able to fully customize the theme according to your personal preferences. See `NOTES` for a dummy test of its functionality.
@@ -18,10 +18,11 @@ You should be able to fully customize the theme according to your personal prefe
 It is possible to contribute to the development by testing the package and informing us of possible errors or limitations. Check `HOW TO USE` for more info. 
 
 > as of april 2021, the theme is still W.I.P.
+> 
 > no beta release available
 
 ## NOTES:
-This theme is currently incomplete, but it's already possible to use it. It is also possible to just test it (see: `tests` folder). 
+This theme is currently incomplete, but it's already possible to use it; just be warned you'll may encounter some unresolved issues. It is also possible to just test it (see: `tests` folder). 
 
 # USEFUL LINKS: 
 - It may be helpful to consider [this discussion](https://tex.stackexchange.com/questions/146529/design-a-custom-beamer-theme-from-scratch) on stackexchange. 
