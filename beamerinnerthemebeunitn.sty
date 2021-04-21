@@ -30,14 +30,24 @@
 \setbeamertemplate{background}{
   \begin{tikzpicture}
   \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-  \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
+  
+  \ifx\insertframetitle\@empty%
+  	{
+  	\fill[color=light-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,7.7)  to[out = 170 , in = 290 ] (10.1,\the\paperheight) ;
+  	\fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
+  	}
+  \else
+  { \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
   \fill[color=light-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,7.7)  to[out = 170 , in = 0 ] (0,8.8) -- (0 , \the\paperheight);
-  \fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
+    \fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
+  }
+  	\fi
   
   \node[inner sep=0pt] (logo) at (12.05,8.85)
       {\includegraphics[width=1.3cm]{images/logo_white.png}};
   \end{tikzpicture}
 }
+
 
 % Title page
 \defbeamertemplate*{title page}{beuntin}[1][]
