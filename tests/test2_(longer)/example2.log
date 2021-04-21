@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  22 APR 2021 00:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  22 APR 2021 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -948,8 +948,9 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \c@@todonotes@numberoftodonotes=\count327
 )
 (../..//beamerthemebeunitn.sty (../..//beamerinnerthemebeunitn.sty)
-(../..//beamerouterthemebeunitn.sty) (../..//beamercolorthemebeunitn.sty))
-(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+(../..//beamerouterthemebeunitn.sty) (../..//beamercolorthemebeunitn.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamercolorthemerose.sty))
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2019/05/04 3.31 The Babel package
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
@@ -1610,10 +1611,10 @@ Package logreq Info: Writing requests to 'example2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37568 strings out of 492616
- 740297 string characters out of 6129481
- 1151636 words of memory out of 5000000
- 40861 multiletter control sequences out of 15000+600000
+ 37581 strings out of 492616
+ 740843 string characters out of 6129481
+ 1152879 words of memory out of 5000000
+ 40871 multiletter control sequences out of 15000+600000
  541239 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,16n,83p,775b,1473s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1631,7 +1632,7 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on example2.pdf (18 pages, 764010 bytes).
+Output written on example2.pdf (18 pages, 764160 bytes).
 PDF statistics:
  635 PDF objects out of 1000 (max. 8388607)
  546 compressed objects within 6 object streams
