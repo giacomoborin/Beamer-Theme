@@ -30,21 +30,27 @@
 \setbeamertemplate{background}{
   \begin{tikzpicture}
   \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-  
-  \ifx\insertframetitle\@empty%
-  	{
-  	\fill[color=light-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,7.7)  to[out = 170 , in = 290 ] (10.1,\the\paperheight) ;
-  	\fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
-  	}
-  \else
-  { \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
-  \fill[color=light-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,7.7)  to[out = 170 , in = 0 ] (0,8.8) -- (0 , \the\paperheight);
-    \fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
-  }
+	\ifx\insertframetitle\@empty%
+		  	{
+		  	\fill[color=light-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,7.7)  to[out = 170 , in = 290 ] (10.1,\the\paperheight) ;
+		  	\fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
+		  	}
+	 \else
+	  { \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
+	  \fill[color=light-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,7.7)  to[out = 170 , in = 0 ] (0,8.8) -- (0 , \the\paperheight);
+	   \fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
+	  }
   	\fi
-  
-  \node[inner sep=0pt] (logo) at (12.05,8.85)
-      {\includegraphics[width=1.3cm]{images/logo_white.png}};
+  	\node[inner sep=0pt] (logo) at (12.05,8.85)
+      {\includegraphics[width=1.3cm]{images/logo_white.png}}; %Logo at high right
+  	\ifnum\thepage=1\relax%
+	 		\fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight); % Cleaning for first page
+	 		\fill[color=light-math] (0,7.2) to[out = 0 , in = 0 ] (\the\paperwidth,8.5)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ; 
+	 		 \fill[color=dark-math] (0,7.5) to[out = 0 , in = 0 ] (\the\paperwidth,8.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ; 
+	 		\node[inner sep=0pt] (logo) at (2.8,8.7)
+	 		      {\includegraphics[width=5.5cm]{images/logonome_white.png}};
+	 
+	 \fi
   \end{tikzpicture}
 }
 
@@ -56,7 +62,7 @@
     \begin{beamercolorbox}[wd=12cm,leftskip=1cm,#1]{title page header}
       \usebeamerfont{title}\inserttitle \par
       \usebeamerfont{subtitle} \insertsubtitle%
-      \par\noindent\rule{\textwidth}{0.4pt}
+      \par\noindent\rule{9cm}{0.4pt}
     \end{beamercolorbox}%
     
     \vskip0.3cm%
