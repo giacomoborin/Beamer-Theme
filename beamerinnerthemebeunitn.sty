@@ -60,46 +60,6 @@
   \vfill
 }
 
-%Section 
-\setbeamertemplate{section page}
-{
-	
-	\vskip0.6cm
-  \begin{centering}
-	  \textcolor{white}{
-	  \usebeamerfont{section title} 
-	  \insertsection}
-	  \par
-  \end{centering}   
-}
-%Show section
-\AtBeginSection{
-\begingroup
-\setbeamertemplate{background}{
-  \begin{tikzpicture}
-  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-  \fill[color=light-math] (0,4.5) rectangle (\the\paperwidth,6) ;
-  \fill[color=dark-math ] (0,4.9) rectangle (\the\paperwidth,4.5) ;
-  
-  \node[inner sep=0pt] (logo) at (6.4,7)
-      {\includegraphics[width=1.5cm]{images/logo.png}};
-  \end{tikzpicture}
-}
-\frame{\sectionpage}
-\endgroup}
-
-%%Roba trovata online a caso, forse si può usare per al progress bar
-%\setbeamertemplate{progress bar in section page}{
-%  \setlength{\metropolis@progressonsectionpage}{%
-%    \textwidth * \ratio{\thesection pt}{\totvalue{totalsection} pt}%
-%  }%
-%  \begin{tikzpicture}
-%    \fill[bg] (0,0) rectangle (\textwidth, \metropolis@progressonsectionpage@linewidth);
-%    \fill[fg] (0,0) rectangle (\metropolis@progressonsectionpage, \metropolis@progressonsectionpage@linewidth);
-%  \end{tikzpicture}%
-%}
-
-
 
 %footline
 \addtobeamertemplate{footline}{
@@ -118,32 +78,14 @@
     }%
     \vskip0.5pt%
 }{}
+%
 
-
-\mode
-<all>
-
-%Progress
-\newlength{\metropolis@progressonsectionpage}
-\newlength{\metropolis@progressonsectionpage@linewidth}
-\setlength{\metropolis@progressonsectionpage@linewidth}{0.4pt}
-\setbeamertemplate{progress bar in section page}{
-  \setlength{\metropolis@progressonsectionpage}{%
-    \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
-  }%
-  \tikzexternaldisable%
-  \begin{tikzpicture}
-    \fill[bg] (0,0) rectangle (\textwidth, \metropolis@progressonsectionpage@linewidth);
-    \fill[fg] (0,0) rectangle (\metropolis@progressonsectionpage, \metropolis@progressonsectionpage@linewidth);
-  \end{tikzpicture}%
-  \tikzexternalenable%
-}
 
 %Section 
 \setbeamertemplate{section page}
 {
 	
-	\vskip0.5cm
+	\vskip0.7cm
   \begin{centering}
 	  \textcolor{white}{
 	  \usebeamerfont{section title} 
@@ -159,7 +101,9 @@
   \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
   \fill[color=light-math] (0,4.5) rectangle (\the\paperwidth,6) ;
   \fill[color=dark-math ] (0,4.9) rectangle (\the\paperwidth,4.5) ;
-  
+  % Prograss bar
+   \draw[color = light-gray , thin] (1,3.7) -- (11.8 , 3.7);
+   \draw[color = dark-math, very thick] (1,3.7) -- ({1+(\thepage)/(\insertdocumentendpage)*10.8} , 3.7);
   \node[inner sep=0pt] (images/logo.png) at (6.4,7)
       {\includegraphics[width=1.5cm]{images/logo.png}};
   \end{tikzpicture}
