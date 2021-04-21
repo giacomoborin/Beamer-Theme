@@ -102,8 +102,8 @@
   \fill[color=light-math] (0,4.5) rectangle (\the\paperwidth,6) ;
   \fill[color=dark-math ] (0,4.9) rectangle (\the\paperwidth,4.5) ;
   % Prograss bar
-   \draw[color = light-gray , thin] (1,3.7) -- (11.8 , 3.7);
-   \draw[color = dark-math, very thick] (1,3.7) -- ({1+(\thepage)/(\insertdocumentendpage)*10.8} , 3.7);
+   \draw[color = light-gray , thick] (1,3.7) -- (11.8 , 3.7);
+   \draw[color = dark-math, thick] (1,3.7) -- ({1+(\thepage)/(\insertdocumentendpage)*10.8} , 3.7);
   \node[inner sep=0pt] (images/logo.png) at (6.4,7)
       {\includegraphics[width=1.5cm]{images/logo.png}};
   \end{tikzpicture}
