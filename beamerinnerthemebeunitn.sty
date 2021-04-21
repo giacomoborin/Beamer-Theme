@@ -47,8 +47,10 @@
 	 		\fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight); % Cleaning for first page
 	 		\fill[color=light-math] (0,7.2) to[out = 0 , in = 0 ] (\the\paperwidth,8.5)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ; 
 	 		 \fill[color=dark-math] (0,7.5) to[out = 0 , in = 0 ] (\the\paperwidth,8.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ; 
-	 		\node[inner sep=0pt] (logo) at (2.8,8.7)
+	 		\node[inner sep=0pt] (logonome) at (2.8,8.7)
 	 		      {\includegraphics[width=5.5cm]{images/logonome_white.png}};
+	 		\node[inner sep=0pt] (logo) at (12,2)
+	 			 	{\includegraphics[width=10cm]{images/logo_trasp.png}};
 	 
 	 \fi
   \end{tikzpicture}
@@ -62,7 +64,7 @@
     \begin{beamercolorbox}[wd=12cm,leftskip=1cm,#1]{title page header}
       \usebeamerfont{title}\inserttitle \par
       \usebeamerfont{subtitle} \insertsubtitle%
-      \par\noindent\rule{9cm}{0.4pt}
+      \par\noindent\rule{6cm}{0.4pt}
     \end{beamercolorbox}%
     
     \vskip0.3cm%
@@ -80,6 +82,7 @@
 %footline
 \addtobeamertemplate{footline}{
     \leavevmode%
+    \ifnum \theframenumber>1
     \hbox{%
     \begin{beamercolorbox}[wd=\paperwidth,ht=2.75ex,dp=.5ex,right,rightskip=1em]{mycolor}%
 		\usebeamercolor[fg]{navigation symbols}\insertslidenavigationsymbol%
@@ -92,7 +95,15 @@
 		\insertframenumber/\inserttotalframenumber
     \end{beamercolorbox}%
     }%
-    \vskip0.5pt%
+    \vskip1pt%
+    \else %modo orribile per mettere uno spazio vuoto, ma altrimenti skippa sotto tutto quello che c'è dopo
+    \hbox{%
+        \begin{beamercolorbox}[wd=\paperwidth,ht=2.75ex,dp=.5ex,right,rightskip=1em]{mycolor}
+        \end{beamercolorbox}%
+        }%
+    \vskip1pt%
+    \fi
+    
 }{}
 %
 

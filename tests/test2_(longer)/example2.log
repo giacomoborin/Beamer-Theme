@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  21 APR 2021 23:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  22 APR 2021 00:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1418,29 +1418,39 @@ Package biblatex Info: ... file 'example2.bbl' found.
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
  (./example2.nav)
-<../../images/logo_white.png, id=77, 1204.5pt x 1204.5pt>
+\openout4 = `example2.vrb'.
+
+ (./example2.vrb)
+<../../images/logo_white.png, id=57, 1204.5pt x 1204.5pt>
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
 Package pdftex.def Info: ../../images/logo_white.png  used on input line 45.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
-<../../images/logonome_white.png, id=79, 1927.2pt x 726.715pt>
+<../../images/logonome_white.png, id=59, 1927.2pt x 726.715pt>
 File: ../../images/logonome_white.png Graphic file (type png)
 <use ../../images/logonome_white.png>
 Package pdftex.def Info: ../../images/logonome_white.png  used on input line 45
 .
 (pdftex.def)             Requested size: 156.49014pt x 59.0033pt.
+<../../images/logo_trasp.png, id=60, 1204.5pt x 1204.5pt>
+File: ../../images/logo_trasp.png Graphic file (type png)
+<use ../../images/logo_trasp.png>
+Package pdftex.def Info: ../../images/logo_trasp.png  used on input line 45.
+(pdftex.def)             Requested size: 284.52756pt x 284.52788pt.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../../i
-mages/logo_white.png> <../../images/logonome_white.png>] (./example2.toc)
+mages/logo_white.png> <../../images/logonome_white.png> <../../images/logo_tras
+p.png>] (./example2.toc)
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
 Package pdftex.def Info: ../../images/logo_white.png  used on input line 49.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
- [2
+
+[2
 
 ]
-<../../images/logo.png, id=148, 1204.5pt x 1204.5pt>
+<../../images/logo.png, id=110, 1204.5pt x 1204.5pt>
 File: ../../images/logo.png Graphic file (type png)
 <use ../../images/logo.png>
 Package pdftex.def Info: ../../images/logo.png  used on input line 51.
@@ -1473,8 +1483,7 @@ File: ../../images/logo.png Graphic file (type png)
 <use ../../images/logo.png>
 Package pdftex.def Info: ../../images/logo.png  used on input line 65.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
-
-[7
+ [7
 
 ]
 File: ../../images/logo_white.png Graphic file (type png)
@@ -1492,7 +1501,8 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 72.
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 83.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 83.
@@ -1600,10 +1610,10 @@ Package logreq Info: Writing requests to 'example2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37553 strings out of 492616
- 739995 string characters out of 6129481
- 1150998 words of memory out of 5000000
- 40850 multiletter control sequences out of 15000+600000
+ 37568 strings out of 492616
+ 740297 string characters out of 6129481
+ 1151636 words of memory out of 5000000
+ 40861 multiletter control sequences out of 15000+600000
  541239 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,16n,83p,775b,1473s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1621,10 +1631,10 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on example2.pdf (18 pages, 627785 bytes).
+Output written on example2.pdf (18 pages, 764010 bytes).
 PDF statistics:
- 673 PDF objects out of 1000 (max. 8388607)
- 566 compressed objects within 6 object streams
+ 635 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
  45 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
