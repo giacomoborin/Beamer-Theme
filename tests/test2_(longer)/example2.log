@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  22 APR 2021 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  22 APR 2021 09:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1451,14 +1451,14 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 49.
 [2
 
 ]
-<../../images/logo.png, id=110, 1204.5pt x 1204.5pt>
-File: ../../images/logo.png Graphic file (type png)
-<use ../../images/logo.png>
-Package pdftex.def Info: ../../images/logo.png  used on input line 51.
+<../../images/logo_new.png, id=110, 401.5pt x 401.5pt>
+File: ../../images/logo_new.png Graphic file (type png)
+<use ../../images/logo_new.png>
+Package pdftex.def Info: ../../images/logo_new.png  used on input line 51.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
  [3
 
- <../../images/logo.png>]
+ <../../images/logo_new.png>]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
 Package pdftex.def Info: ../../images/logo_white.png  used on input line 63.
@@ -1480,9 +1480,9 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 63.
  [6
 
 ]
-File: ../../images/logo.png Graphic file (type png)
-<use ../../images/logo.png>
-Package pdftex.def Info: ../../images/logo.png  used on input line 65.
+File: ../../images/logo_new.png Graphic file (type png)
+<use ../../images/logo_new.png>
+Package pdftex.def Info: ../../images/logo_new.png  used on input line 65.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
  [7
 
@@ -1564,9 +1564,9 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 109.
  [15
 
 ]
-File: ../../images/logo.png Graphic file (type png)
-<use ../../images/logo.png>
-Package pdftex.def Info: ../../images/logo.png  used on input line 111.
+File: ../../images/logo_new.png Graphic file (type png)
+<use ../../images/logo_new.png>
+Package pdftex.def Info: ../../images/logo_new.png  used on input line 111.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
  [16
 
@@ -1611,9 +1611,9 @@ Package logreq Info: Writing requests to 'example2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37581 strings out of 492616
- 740843 string characters out of 6129481
- 1152879 words of memory out of 5000000
+ 37582 strings out of 492616
+ 740867 string characters out of 6129481
+ 1152887 words of memory out of 5000000
  40871 multiletter control sequences out of 15000+600000
  541239 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1632,7 +1632,7 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on example2.pdf (18 pages, 764160 bytes).
+Output written on example2.pdf (18 pages, 589461 bytes).
 PDF statistics:
  635 PDF objects out of 1000 (max. 8388607)
  546 compressed objects within 6 object streams
