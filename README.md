@@ -2,14 +2,14 @@
  
 This project aims to code a LaTeX beamer theme for master's & bachelor's degrees of the University of Trento (Italy), but also to provide a quasi-official theme for professors, students, et cetera working or studying at UniTn. As of now, this is a _non-official_ project. The theme will follow current guidelines for style and impagination.
 
-Latest version: `v0.1-beta1`
+Latest version: `v0.1-beta1`, april 2021
 
 ![immagine](https://user-images.githubusercontent.com/64229723/115863144-54ed6c80-a435-11eb-870e-804b5819b2a7.png)
 
 The theme is currently available only in **math emerald**, we'll soon work on **biology cobalt** and **physics ruby**.
 
 ## HOW TO USE:
-At the current state, the first beta release is available. However, the project is still marked as incomplete... therefore you might run into some issues.
+The first beta release is available! However, the project is still marked as incomplete... therefore you might run into some issues.
 
 In order to use it you will have to 
 1. insert in your main folder the .sty files you will find here,
