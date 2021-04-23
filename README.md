@@ -4,6 +4,10 @@ This project aims to code a LaTeX beamer theme for master's & bachelor's degrees
 
 Latest version: `v0.1-beta1`
 
+![immagine](https://user-images.githubusercontent.com/64229723/115863144-54ed6c80-a435-11eb-870e-804b5819b2a7.png)
+
+The theme is currently available only in **math emerald**, we'll soon work on **biology cobalt** and **physics ruby**.
+
 ## HOW TO USE:
 At the current state, the first beta release is available. However, the project is still marked as incomplete... therefore you might run into some issues.
 
