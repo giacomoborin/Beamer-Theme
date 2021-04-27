@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  22 APR 2021 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  27 APR 2021 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1451,14 +1451,14 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 49.
 [2
 
 ]
-<../../images/logo_new.png, id=110, 401.5pt x 401.5pt>
-File: ../../images/logo_new.png Graphic file (type png)
-<use ../../images/logo_new.png>
-Package pdftex.def Info: ../../images/logo_new.png  used on input line 51.
+<../../images/logo_math.png, id=110, 401.5pt x 401.5pt>
+File: ../../images/logo_math.png Graphic file (type png)
+<use ../../images/logo_math.png>
+Package pdftex.def Info: ../../images/logo_math.png  used on input line 51.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
  [3
 
- <../../images/logo_new.png>]
+ <../../images/logo_math.png (PNG copy)>]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
 Package pdftex.def Info: ../../images/logo_white.png  used on input line 63.
@@ -1480,9 +1480,9 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 63.
  [6
 
 ]
-File: ../../images/logo_new.png Graphic file (type png)
-<use ../../images/logo_new.png>
-Package pdftex.def Info: ../../images/logo_new.png  used on input line 65.
+File: ../../images/logo_math.png Graphic file (type png)
+<use ../../images/logo_math.png>
+Package pdftex.def Info: ../../images/logo_math.png  used on input line 65.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
  [7
 
@@ -1545,49 +1545,56 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 96.
 ]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 103.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 104.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [13
 
 ]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 109.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 113.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [14
 
 ]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 109.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 119.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [15
 
 ]
-File: ../../images/logo_new.png Graphic file (type png)
-<use ../../images/logo_new.png>
-Package pdftex.def Info: ../../images/logo_new.png  used on input line 111.
-(pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
+File: ../../images/logo_white.png Graphic file (type png)
+<use ../../images/logo_white.png>
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 119.
+(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [16
+
+]
+File: ../../images/logo_math.png Graphic file (type png)
+<use ../../images/logo_math.png>
+Package pdftex.def Info: ../../images/logo_math.png  used on input line 121.
+(pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
+ [17
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 115.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 125.
 
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 115.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 125.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
-[17
+[18
 
  </usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] (
 ./example2.toc)
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 119.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 129.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
- [18
+ [19
 
 ]
 \tf@nav=\write7
@@ -1599,11 +1606,11 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 119.
 \tf@snm=\write9
 \openout9 = `example2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./example2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `example2.out' has not changed.
 (rerunfilecheck)             Checksum: 6F6E6F343F8F06EF1CE4D5776C876D4E;293.
 Package logreq Info: Writing requests to 'example2.run.xml'.
@@ -1611,10 +1618,10 @@ Package logreq Info: Writing requests to 'example2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37582 strings out of 492616
- 740867 string characters out of 6129481
- 1152887 words of memory out of 5000000
- 40871 multiletter control sequences out of 15000+600000
+ 37607 strings out of 492616
+ 741612 string characters out of 6129481
+ 1153138 words of memory out of 5000000
+ 40894 multiletter control sequences out of 15000+600000
  541239 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,16n,83p,775b,1473s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1632,10 +1639,10 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on example2.pdf (18 pages, 589461 bytes).
+Output written on example2.pdf (19 pages, 619466 bytes).
 PDF statistics:
- 635 PDF objects out of 1000 (max. 8388607)
- 546 compressed objects within 6 object streams
- 45 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 

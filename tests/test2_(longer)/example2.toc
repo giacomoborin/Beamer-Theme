@@ -10,4 +10,4 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {2}{2}{Seconda sottosezione}{10}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Sezione finale}{16}{0}{3}
+\beamer@sectionintoc {3}{Sezione finale}{17}{0}{3}
