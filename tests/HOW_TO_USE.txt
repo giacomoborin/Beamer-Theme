@@ -1,5 +1,0 @@
-# HOW TO USE THE EXAMPLES
---------------------------
-
-In order for the examples to work, you'll have to download the .tex files and follow the instructions in the main README.
-They're not ready-to-work because the template isn't officially published.
