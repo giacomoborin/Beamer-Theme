@@ -1,5 +1,9 @@
 \mode<presentation>
 
+% ---- [CODICE VECCHIO] -------------------------
+% tenuto a scopo di backup
+% todo: cancellare se non più necessario
+
 % Frame title
 %\defbeamertemplate*{frametitle}{texsx}[1][]
 %{
@@ -16,17 +20,27 @@
 %  \end{tikzpicture}
 %  \end{beamercolorbox}
 %}
-%\useoutertheme[ right/left , height=2]{sidebar} %todo: sistemare
+%\useoutertheme[ right/left , height=2]{sidebar} 
+%todo: sistemare
 
+% ---- [TITOLO FRAME] -------------------------
+% todo: \ifx\insertframesubtitle\@empty ..., \else ... ?
 
-\setbeamertemplate{frametitle}
-{
+\setbeamertemplate{frametitle}{
     \nointerlineskip
-    \begin{beamercolorbox}[sep=0.3cm,ht=1.8em,wd=\paperwidth]{frametitle}
+    \begin{beamercolorbox}
+        [sep=0.3cm,ht=1.8em,wd=\paperwidth]{frametitle}
         \vbox{}\vskip-2ex%
         \strut\insertframetitle\strut
         \vskip-0.8ex%
     \end{beamercolorbox}
+    
+    % CORREZIONE ALTEZZA TESTO (via sporco trucco):
+    \vspace*{.9cm}
 }
+
+% minimal working example per il titolo:
+%\setbeamertemplate{frametitle}{
+%\vspace*{4mm}\hspace*{0mm}\insertframetitle \vspace*{1cm}}
 
 \mode<all>

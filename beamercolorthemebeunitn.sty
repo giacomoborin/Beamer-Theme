@@ -1,34 +1,33 @@
 \mode<presentation>
 
-%Color
+% ---- [COLORI] -------------------------
+% nuovi colori:
 \definecolor{dark-math}{RGB}{80,99,39}
 \definecolor{light-math}{RGB}{120,145,61}
 \definecolor{light-gray}{RGB}{220,224,212}
 
-
-% Settings
+% utilizzo colori:
 \setbeamercolor*{title page header}{fg=dark-math}
 \setbeamercolor*{author}{fg=black}
 \setbeamercolor*{date}{fg=black}
 \setbeamercolor{frametitle}{fg=white}
 
-
 \setbeamercolor{palette primary}{fg=dark-math}
 \setbeamercolor{palette secondary}{fg=black}
 \setbeamercolor{palette tertiary}{fg=light-math}
 \setbeamercolor{palette quaternary}{fg=black}
-\setbeamercolor{structure}{fg=dark-math} % itemize, enumerate, etc
-\setbeamercolor{section in toc}{fg=light-math} % TOC sections
+\setbeamercolor{structure}{fg=dark-math} % itemize, enumerate, ...
+\setbeamercolor{section in toc}{fg=dark-math} % TOC sections
+\setbeamercolor{subsection in toc}{fg=light-math} % TOC sections
 
-% Override palette coloring with secondary
 \setbeamercolor{subsection in head/foot}{fg=black}
 
-% Items
+
+
+% ---- [OGGETTI] -------------------------
 \setbeamertemplate{items}[square]
 \setbeamertemplate{sections/subsections in toc}[square]
 
-
 \usepackage{beamercolorthemerose}
 
-\mode
-<all>
+\mode<all>
