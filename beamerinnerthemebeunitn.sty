@@ -43,33 +43,33 @@
     
     % --- se il frame non ha titolo... -----------------
 	\ifx\insertframetitle\@empty{
-	    \fill[color=light-math ] 
+	    \fill[color=light-color ] 
 	        (10.7,\the\paperheight) to[out = 290 , in = 170 ]
 	        (\the\paperwidth,8.0) -- 
 	        (\the\paperwidth,7.7)  to[out = 170 , in = 290 ] 
 	        (10.1,\the\paperheight) ;
 	    
-	    \fill[color=dark-math ] 
+	    \fill[color=dark-color ] 
 	        (10.5,\the\paperheight) to[out = 290 , in = 170 ] 
 	        (\the\paperwidth,7.8) -- 
 	        (\the\paperwidth,\the\paperheight)  ;
     }
 	% --- se il frame ha titolo... -----------------
 	 \else{ 
-	    \fill[color=dark-math] 
+	    \fill[color=dark-color] 
 	        (0,8.65) to[out = 0 , in = 170 ] 
 	        (\the\paperwidth,7.6) --  
 	        (\the\paperwidth,\the\paperheight) -- 
 	        (0,\the\paperheight) ;
 	    
-	    \fill[color=light-math] 
+	    \fill[color=light-color] 
 	        (10.7,\the\paperheight) to[out = 290 , in = 170 ]
 	        (\the\paperwidth,8.0) -- 
 	        (\the\paperwidth,7.7)  to[out = 170 , in = 0 ] 
     	    (0,8.8) -- 
     	    (0 , \the\paperheight);
 	    
-	    \fill[color=dark-math ] 
+	    \fill[color=dark-color] 
 	        (10.5,\the\paperheight) to[out = 290 , in = 170 ]
 	        (\the\paperwidth,7.8) -- 
 	        (\the\paperwidth,\the\paperheight);
@@ -84,12 +84,12 @@
   	\ifnum\thepage=1\relax%
 	    \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight); % pulisce la pagina
 	 	
-	 	\fill[color=light-math] 
+	 	\fill[color=light-color] 
 	 	    (0,7.2) to[out = 0 , in = 0 ] 
 	 	    (\the\paperwidth,8.5)--  
 	 	    (\the\paperwidth,\the\paperheight) -- 
 	 	    (0,\the\paperheight) ; 
-	 	\fill[color=dark-math] 
+	 	\fill[color=dark-color] 
 	 	    (0,7.5) to[out = 0 , in = 0 ] 
 	 	    (\the\paperwidth,8.6)--  
 	 	    (\the\paperwidth,\the\paperheight) -- 
@@ -181,21 +181,21 @@
 \setbeamertemplate{background}{
     \begin{tikzpicture}
     \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-    \fill[color=light-math] 
+    \fill[color=light-color] 
         (0,4.5) rectangle (\the\paperwidth,6) ;
-    \fill[color=dark-math ] 
+    \fill[color=dark-color] 
         (0,4.9) rectangle (\the\paperwidth,4.5) ;
   
     % --(progress bar)--
     \draw[color = light-gray , thick] 
         (1,3.7) -- 
         (11.8 , 3.7);
-    \draw[color = dark-math, thick] 
+    \draw[color = dark-color, thick] 
         (1,3.7) -- 
         ({1+(\thepage)/(\insertdocumentendpage)*10.8} , 3.7);
     \node[inner sep=0pt] 
         (images/logo.png) at (6.4,7)
-        {\includegraphics[width=1.5cm]{images/logo_math.png}};
+        {\includegraphics[width=1.5cm]{images/\logosec.png}};
     \end{tikzpicture}
 }
 \frame{\sectionpage}
