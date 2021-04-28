@@ -30,3 +30,4 @@ This theme is currently incomplete, but it's already possible to use it; be warn
 - If you are italian, [this PDF](https://www.guitex.org/home/images/doc/GuideGuIT/intropersbeamer.pdf) will help you a lot.
 - For a short tutorial on frame titles, [consider this website](https://bloerg.net/posts/customizing-the-frametitle-of-beamer-presentation/).
 - To edit the README file: [useful info](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
+- Beamer appearance: [cheat sheet](http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf)
