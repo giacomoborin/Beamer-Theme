@@ -1,7 +1,12 @@
 \mode<presentation>
 
 
-%% Scuro - chiaro
+
+% ---- [CODICE VECCHIO] -------------------------
+% tenuto a scopo di backup
+% todo: cancellare se non più necessario
+
+% --(scuro-chiaro)--
 %\setbeamertemplate{background}{
 %  \begin{tikzpicture}
 %  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
@@ -13,7 +18,8 @@
 %  \end{tikzpicture}
 %}
 
-%%Scuro - Scritta - Chiaro -Scuro
+
+% --(Scuro - Scritta - Chiaro -Scuro)--
 %\setbeamertemplate{background}{
 %  \begin{tikzpicture}
 %  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
@@ -26,40 +32,82 @@
 %  \end{tikzpicture}
 %}
 
-%Scuro - Scritta - Chiaro -Scuro
+
+
+% ---- [BACKGROUND] -------------------------
+% --(Scuro - Scritta - Chiaro -Scuro)--
 \setbeamertemplate{background}{
-  \begin{tikzpicture}
-  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-	\ifx\insertframetitle\@empty%
-		  	{
-		  	\fill[color=light-math ] (10.6,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.9) -- (\the\paperwidth,7.7)  to[out = 170 , in = 290 ] (10.1,\the\paperheight) ;
-		  	\fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
-		  	}
-	 \else
-	  { \fill[color=dark-math] (0,8.65) to[out = 0 , in = 170 ] (\the\paperwidth,7.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ;
-	  \fill[color=light-math ] (10.6,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.9) -- (\the\paperwidth,7.7)  to[out = 170 , in = 0 ] (0,8.8) -- (0 , \the\paperheight);
-	   \fill[color=dark-math ] (10.5,\the\paperheight) to[out = 290 , in = 170 ] (\the\paperwidth,7.8) -- (\the\paperwidth,\the\paperheight)  ;
+    \begin{tikzpicture}
+    \useasboundingbox (0,0) 
+        rectangle(\the\paperwidth,\the\paperheight);
+    
+    % --- se il frame non ha titolo... -----------------
+	\ifx\insertframetitle\@empty{
+	    \fill[color=light-math ] 
+	        (10.7,\the\paperheight) to[out = 290 , in = 170 ]
+	        (\the\paperwidth,8.0) -- 
+	        (\the\paperwidth,7.7)  to[out = 170 , in = 290 ] 
+	        (10.1,\the\paperheight) ;
+	    
+	    \fill[color=dark-math ] 
+	        (10.5,\the\paperheight) to[out = 290 , in = 170 ] 
+	        (\the\paperwidth,7.8) -- 
+	        (\the\paperwidth,\the\paperheight)  ;
+    }
+	% --- se il frame ha titolo... -----------------
+	 \else{ 
+	    \fill[color=dark-math] 
+	        (0,8.65) to[out = 0 , in = 170 ] 
+	        (\the\paperwidth,7.6) --  
+	        (\the\paperwidth,\the\paperheight) -- 
+	        (0,\the\paperheight) ;
+	    
+	    \fill[color=light-math] 
+	        (10.7,\the\paperheight) to[out = 290 , in = 170 ]
+	        (\the\paperwidth,8.0) -- 
+	        (\the\paperwidth,7.7)  to[out = 170 , in = 0 ] 
+    	    (0,8.8) -- 
+    	    (0 , \the\paperheight);
+	    
+	    \fill[color=dark-math ] 
+	        (10.5,\the\paperheight) to[out = 290 , in = 170 ]
+	        (\the\paperwidth,7.8) -- 
+	        (\the\paperwidth,\the\paperheight);
 	  }
   	\fi
+  	
+  	% --- logo in alto a destra -----------------
   	\node[inner sep=0pt] (logo) at (12.05,8.85)
-      {\includegraphics[width=1.3cm]{images/logo_white.png}}; %Logo at high right
+      {\includegraphics[width=1.3cm]{images/logo_white.png}}; 
+      
+    % --- prima pagina --------------------
   	\ifnum\thepage=1\relax%
-	 		\fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight); % Cleaning for first page
-	 		\fill[color=light-math] (0,7.2) to[out = 0 , in = 0 ] (\the\paperwidth,8.5)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ; 
-	 		 \fill[color=dark-math] (0,7.5) to[out = 0 , in = 0 ] (\the\paperwidth,8.6)--  (\the\paperwidth,\the\paperheight) -- (0,\the\paperheight) ; 
-	 		\node[inner sep=0pt] (logonome) at (2.8,8.7)
-	 		      {\includegraphics[width=5.5cm]{images/logonome_white.png}};
-	 		\node[inner sep=0pt] (logo) at (12,2)
-	 			 	{\includegraphics[width=10cm]{images/logo_trasp.png}};
-	 
+	    \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight); % pulisce la pagina
+	 	
+	 	\fill[color=light-math] 
+	 	    (0,7.2) to[out = 0 , in = 0 ] 
+	 	    (\the\paperwidth,8.5)--  
+	 	    (\the\paperwidth,\the\paperheight) -- 
+	 	    (0,\the\paperheight) ; 
+	 	\fill[color=dark-math] 
+	 	    (0,7.5) to[out = 0 , in = 0 ] 
+	 	    (\the\paperwidth,8.6)--  
+	 	    (\the\paperwidth,\the\paperheight) -- 
+	 	    (0,\the\paperheight) ; 
+	 	\node[inner sep=0pt] 
+	 	    (logonome) at (2.8,8.7)
+	 		{\includegraphics[width=5.5cm]{images/logonome_white.png}};
+	 	\node[inner sep=0pt] 
+	 	    (logo) at (12,2)
+	 		{\includegraphics[width=10cm]{images/logo_trasp.png}};
 	 \fi
   \end{tikzpicture}
 }
 
 
-% Title page
-\defbeamertemplate*{title page}{beuntin}[1][]
-{ 
+
+% ---- [FRAME TITOLO] -------------------------
+\defbeamertemplate*{title page}{beuntin}[1][]{ 
    \vskip3cm%
     \begin{beamercolorbox}[wd=12cm,leftskip=1cm,#1]{title page header}
       \usebeamerfont{title}\textbf\inserttitle \par
@@ -83,13 +131,15 @@
 }
 
 
-%footline
+
+% ---- [DATI FOOTLINE] -------------------------
 \addtobeamertemplate{footline}{
     \leavevmode%
     \ifnum \theframenumber>1
     \hbox{%
-    \begin{beamercolorbox}[wd=\paperwidth,ht=2.75ex,dp=.5ex,right,rightskip=1em]{mycolor}%
-		\usebeamercolor[fg]{navigation symbols}\insertslidenavigationsymbol%
+    \begin{beamercolorbox}
+        [wd=\paperwidth,ht=2.75ex,dp=.5ex,right,rightskip=1em]{mycolor}%
+		\usebeamercolor[fg]{navigation symbols} \insertslidenavigationsymbol%
 		\insertframenavigationsymbol%
 		\insertsubsectionnavigationsymbol%
 		\insertsectionnavigationsymbol%
@@ -99,23 +149,23 @@
 		\insertframenumber/\inserttotalframenumber
     \end{beamercolorbox}%
     }%
+    
     \vskip1pt%
-    \else %modo orribile per mettere uno spazio vuoto, ma altrimenti skippa sotto tutto quello che c'è dopo
+    \else 
+    % modo orribile per mettere uno spazio vuoto, ma 
+    % altrimenti skippa sotto tutto quello che c'è dopo
     \hbox{%
         \begin{beamercolorbox}[wd=\paperwidth,ht=2.75ex,dp=.5ex,right,rightskip=1em]{mycolor}
         \end{beamercolorbox}%
         }%
     \vskip1pt%
     \fi
-    
 }{}
-%
 
 
-%Section 
-\setbeamertemplate{section page}
-{
-	
+
+% ---- [PAGINA SEZIONE] -------------------------
+\setbeamertemplate{section page}{
 	\vskip0.7cm
   \begin{centering}
 	  \textcolor{white}{
@@ -124,23 +174,31 @@
 	  \par
   \end{centering}   
 }
-%Show section
+
+% mostra sezione
 \AtBeginSection{
 \begingroup
 \setbeamertemplate{background}{
-  \begin{tikzpicture}
-  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
-  \fill[color=light-math] (0,4.5) rectangle (\the\paperwidth,6) ;
-  \fill[color=dark-math ] (0,4.9) rectangle (\the\paperwidth,4.5) ;
-  % Prograss bar
-   \draw[color = light-gray , thick] (1,3.7) -- (11.8 , 3.7);
-   \draw[color = dark-math, thick] (1,3.7) -- ({1+(\thepage)/(\insertdocumentendpage)*10.8} , 3.7);
-  \node[inner sep=0pt] (images/logo.png) at (6.4,7)
-      {\includegraphics[width=1.5cm]{images/logo_math.png}};
-  \end{tikzpicture}
+    \begin{tikzpicture}
+    \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+    \fill[color=light-math] 
+        (0,4.5) rectangle (\the\paperwidth,6) ;
+    \fill[color=dark-math ] 
+        (0,4.9) rectangle (\the\paperwidth,4.5) ;
+  
+    % --(progress bar)--
+    \draw[color = light-gray , thick] 
+        (1,3.7) -- 
+        (11.8 , 3.7);
+    \draw[color = dark-math, thick] 
+        (1,3.7) -- 
+        ({1+(\thepage)/(\insertdocumentendpage)*10.8} , 3.7);
+    \node[inner sep=0pt] 
+        (images/logo.png) at (6.4,7)
+        {\includegraphics[width=1.5cm]{images/logo_math.png}};
+    \end{tikzpicture}
 }
 \frame{\sectionpage}
 \endgroup}
 
-\mode
-<all>
+\mode<all>
