@@ -31,3 +31,4 @@ This theme is currently incomplete, but it's already possible to use it; be warn
 - For a short tutorial on frame titles, [consider this website](https://bloerg.net/posts/customizing-the-frametitle-of-beamer-presentation/).
 - To edit the README file: [useful info](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 - Beamer appearance: [cheat sheet](http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf)
+- Beamer geometry sizes: [picture](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftex.stackexchange.com%2Fquestions%2F34367%2Fbeamer-frame-without-decorations-with-custom-margin&psig=AOvVaw1btF3iM-dko9MQgSazc4Ph&ust=1619707212640000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICm-dqVofACFQAAAAAdAAAAABAO)
