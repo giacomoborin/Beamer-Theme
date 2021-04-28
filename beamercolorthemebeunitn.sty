@@ -1,26 +1,48 @@
 \mode<presentation>
 
-%Color
-\definecolor{dark-math}{RGB}{80,99,39}
-\definecolor{light-math}{RGB}{120,145,61}
-\definecolor{light-gray}{RGB}{220,224,212}
-\definecolor{example-math}{RGB}{91,184,169}
-\definecolor{alert-math}{RGB}{0,250,0}
-%{122,224,97}
+%%%Color%%%%%
+
+%%Base case
+%\definecolor{dark-color}{RGB}{80,99,39}
+%\definecolor{light-color}{RGB}{120,145,61}
+%\definecolor{light-gray}{RGB}{220,224,212}
+%\definecolor{example-color}{RGB}{91,184,169}
+%\definecolor{alert-color}{RGB}{0,250,0}
+%
+%
+%%case math
+%\DeclareOption{math}{
+%\definecolor{dark-color}{RGB}{80,99,39}
+%\definecolor{light-color}{RGB}{120,145,61}
+%\definecolor{light-gray}{RGB}{220,224,212}
+%\definecolor{example-color}{RGB}{91,184,169}
+%\definecolor{alert-color}{RGB}{0,250,0}
+%}
+%
+%%case math
+%\DeclareOption{physics}{
+%\definecolor{dark-color}{RGB}{80,99,39}
+%\definecolor{light-color}{RGB}{120,145,61}
+%\definecolor{light-gray}{RGB}{220,224,212}
+%\definecolor{example-color}{RGB}{91,184,169}
+%\definecolor{alert-color}{RGB}{0,250,0}
+%}
+%
+%\ProcessOptions
 
 
-% Settings
-\setbeamercolor*{title page header}{fg=dark-math}
+%%% Settings %%%
+\setbeamercolor*{title page header}{fg=dark-color}
 \setbeamercolor*{author}{fg=black}
 \setbeamercolor*{date}{fg=black}
 \setbeamercolor{frametitle}{fg=white}
 
 
-\setbeamercolor{palette primary}{fg=dark-math}
+\setbeamercolor{palette primary}{fg=dark-color}
 \setbeamercolor{palette secondary}{fg=black}
-\setbeamercolor{palette tertiary}{fg=light-math}
+\setbeamercolor{palette tertiary}{fg=light-color}
 \setbeamercolor{palette quaternary}{fg=black}
-\setbeamercolor{section in toc}{fg=light-math} % TOC sections
+\setbeamercolor{section in toc}{fg=light-color} % TOC sections
 
 % Override palette coloring with secondary
 \setbeamercolor{subsection in head/foot}{fg=black}
@@ -37,9 +59,9 @@
 
 %Essential
 \setbeamercolor{normal text}{fg=black,bg=white}
-\setbeamercolor{alerted text}{fg=alert-math}
-\setbeamercolor{example text}{fg=example-math}
-\setbeamercolor{structure}{fg=dark-math}
+\setbeamercolor{alerted text}{fg=alert-color}
+\setbeamercolor{example text}{fg=example-color}
+\setbeamercolor{structure}{fg=dark-color}
 
 \mode
 <all>
