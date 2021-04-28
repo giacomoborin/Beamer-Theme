@@ -7,6 +7,41 @@
 
 
 
+% ---- [OPZIONI THEME] -------------------------
+
+% --(CASO BASE)--
+\definecolor{dark-color}{RGB}{80,99,39}
+\definecolor{light-color}{RGB}{120,145,61}
+\definecolor{light-gray}{RGB}{220,224,212}
+\definecolor{example-color}{RGB}{91,184,169}
+\definecolor{alert-color}{RGB}{0,250,0}
+\newcommand{\logosec}{logo_math}
+
+
+% --(CASO MATH)--
+\DeclareOption{math}{
+\definecolor{dark-color}{RGB}{80,99,39}
+\definecolor{light-color}{RGB}{120,145,61}
+\definecolor{light-gray}{RGB}{220,224,212}
+\definecolor{example-color}{RGB}{91,184,169}
+\definecolor{alert-color}{RGB}{245,181,115}
+\renewcommand{\logosec}{logo_math}
+}
+
+% --(CASO PHYSICS)--
+\DeclareOption{physics}{
+\definecolor{dark-color}{RGB}{42,84,66}
+\definecolor{light-color}{RGB}{60,117,92}
+\definecolor{light-gray}{RGB}{220,224,212}
+\definecolor{example-color}{RGB}{91,184,169}
+\definecolor{alert-color}{RGB}{245,181,115}
+\renewcommand{\logosec}{logo_new}
+}
+
+\ProcessOptions
+
+
+
 % ---- [IMPOSTAZIONI] -------------------------
 % todo: questa è una soluzione temporanea per i test
 %\usepackage{../../beamerinnerthemebeunitn}
@@ -21,5 +56,9 @@
 
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{blocks}[rounded][shadow=true]
+
+% --(spazi nel testo)--
+\setlength{\parskip}{0.5em}
+\linespread{1.15}
 
 \mode<all>
