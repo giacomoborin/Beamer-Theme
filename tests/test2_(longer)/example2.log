@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  27 APR 2021 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.31)  28 APR 2021 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1419,9 +1419,6 @@ Package biblatex Info: ... file 'example2.bbl' found.
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
  (./example2.nav)
-\openout4 = `example2.vrb'.
-
- (./example2.vrb)
 <../../images/logo_white.png, id=57, 1204.5pt x 1204.5pt>
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
@@ -1447,11 +1444,10 @@ File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
 Package pdftex.def Info: ../../images/logo_white.png  used on input line 49.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
-
-[2
+ [2
 
 ]
-<../../images/logo_math.png, id=110, 401.5pt x 401.5pt>
+<../../images/logo_math.png, id=111, 401.5pt x 401.5pt>
 File: ../../images/logo_math.png Graphic file (type png)
 <use ../../images/logo_math.png>
 Package pdftex.def Info: ../../images/logo_math.png  used on input line 51.
@@ -1461,58 +1457,30 @@ Package pdftex.def Info: ../../images/logo_math.png  used on input line 51.
  <../../images/logo_math.png (PNG copy)>]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 63.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 59.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [4
 
 ]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 63.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 59.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [5
 
 ]
-File: ../../images/logo_white.png Graphic file (type png)
-<use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 63.
-(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
- [6
-
-]
-File: ../../images/logo_math.png Graphic file (type png)
-<use ../../images/logo_math.png>
-Package pdftex.def Info: ../../images/logo_math.png  used on input line 65.
-(pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
- [7
-
-]
-File: ../../images/logo_white.png Graphic file (type png)
-<use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 72.
-(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
- [8
-
-]
-File: ../../images/logo_white.png Graphic file (type png)
-<use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 72.
-(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
- [9
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 83.
+LaTeX Font Info:    Try loading font information for U+msa on input line 68.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 83.
+LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 83.
+line 68.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1520,81 +1488,130 @@ thkerncmss.
 )
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 83.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 68.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
+ [6
+
+]
+File: ../../images/logo_white.png Graphic file (type png)
+<use ../../images/logo_white.png>
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 80.
+(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
+ [7
+
+]
+File: ../../images/logo_white.png Graphic file (type png)
+<use ../../images/logo_white.png>
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 80.
+(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
+ [8
+
+]
+File: ../../images/logo_white.png Graphic file (type png)
+<use ../../images/logo_white.png>
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 80.
+(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
+ [9
+
+]
+File: ../../images/logo_math.png Graphic file (type png)
+<use ../../images/logo_math.png>
+Package pdftex.def Info: ../../images/logo_math.png  used on input line 82.
+(pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
  [10
 
 ]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 91.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 89.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [11
 
 ]
-Overfull \hbox (3.2122pt too wide) in paragraph at lines 96--96
-[][]\OT1/cmss/m/n/10.95 immagine 
- []
-
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 96.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 89.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
-[12
+ [12
 
 ]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 104.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 100.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [13
 
 ]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 113.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 108.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [14
 
 ]
+Overfull \hbox (3.2122pt too wide) in paragraph at lines 113--113
+[][]\OT1/cmss/m/n/10.95 immagine 
+ []
+
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 119.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 113.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
- [15
+[15
 
 ]
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 119.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 121.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
  [16
 
 ]
+File: ../../images/logo_white.png Graphic file (type png)
+<use ../../images/logo_white.png>
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 130.
+(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
+ [17
+
+]
+File: ../../images/logo_white.png Graphic file (type png)
+<use ../../images/logo_white.png>
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 136.
+(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
+ [18
+
+]
+File: ../../images/logo_white.png Graphic file (type png)
+<use ../../images/logo_white.png>
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 136.
+(pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
+ [19
+
+]
 File: ../../images/logo_math.png Graphic file (type png)
 <use ../../images/logo_math.png>
-Package pdftex.def Info: ../../images/logo_math.png  used on input line 121.
+Package pdftex.def Info: ../../images/logo_math.png  used on input line 138.
 (pdftex.def)             Requested size: 42.67912pt x 42.67642pt.
- [17
+ [20
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 125.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 142.
 
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 125.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 142.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
-[18
+[21
 
  </usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] (
 ./example2.toc)
 File: ../../images/logo_white.png Graphic file (type png)
 <use ../../images/logo_white.png>
-Package pdftex.def Info: ../../images/logo_white.png  used on input line 129.
+Package pdftex.def Info: ../../images/logo_white.png  used on input line 146.
 (pdftex.def)             Requested size: 36.98866pt x 36.97888pt.
- [19
+ [22
 
 ]
 \tf@nav=\write7
@@ -1606,23 +1623,23 @@ Package pdftex.def Info: ../../images/logo_white.png  used on input line 129.
 \tf@snm=\write9
 \openout9 = `example2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./example2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `example2.out' has not changed.
-(rerunfilecheck)             Checksum: 6F6E6F343F8F06EF1CE4D5776C876D4E;293.
+(rerunfilecheck)             Checksum: 4F035096E04760E5FC361DCDD46728B9;294.
 Package logreq Info: Writing requests to 'example2.run.xml'.
 \openout1 = `example2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37607 strings out of 492616
- 741612 string characters out of 6129481
- 1153138 words of memory out of 5000000
- 40894 multiletter control sequences out of 15000+600000
- 541239 words of font info for 55 fonts, out of 8000000 for 9000
+ 37620 strings out of 492616
+ 741800 string characters out of 6129481
+ 1153838 words of memory out of 5000000
+ 40904 multiletter control sequences out of 15000+600000
+ 541533 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,16n,83p,775b,1473s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
@@ -1639,10 +1656,10 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on example2.pdf (19 pages, 619466 bytes).
+Output written on example2.pdf (22 pages, 630557 bytes).
 PDF statistics:
- 668 PDF objects out of 1000 (max. 8388607)
- 575 compressed objects within 6 object streams
- 47 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 769 PDF objects out of 1000 (max. 8388607)
+ 660 compressed objects within 7 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 

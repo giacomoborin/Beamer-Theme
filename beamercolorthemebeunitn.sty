@@ -4,6 +4,9 @@
 \definecolor{dark-math}{RGB}{80,99,39}
 \definecolor{light-math}{RGB}{120,145,61}
 \definecolor{light-gray}{RGB}{220,224,212}
+\definecolor{example-math}{RGB}{91,184,169}
+\definecolor{alert-math}{RGB}{0,250,0}
+%{122,224,97}
 
 
 % Settings
@@ -17,7 +20,6 @@
 \setbeamercolor{palette secondary}{fg=black}
 \setbeamercolor{palette tertiary}{fg=light-math}
 \setbeamercolor{palette quaternary}{fg=black}
-\setbeamercolor{structure}{fg=dark-math} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=light-math} % TOC sections
 
 % Override palette coloring with secondary
@@ -29,6 +31,15 @@
 
 
 \usepackage{beamercolorthemerose}
+
+%Block and alert
+
+
+%Essential
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{alerted text}{fg=alert-math}
+\setbeamercolor{example text}{fg=example-math}
+\setbeamercolor{structure}{fg=dark-math}
 
 \mode
 <all>
