@@ -10,7 +10,12 @@ As of now, this is a _non-official_ project. The theme will follow current guide
 
 Follow the project on https://github.com/giacomoborin/Beamer-Theme.
 
+--[PACKAGE OPTIONS]-------
+(DEPARTMENT) changes department-related images: math, physics
+
 --[FaQ]------------------
-1. Bisogna rimuovere l'heading quando si usa la bibliografia ('heading=none') altrimenti crea problemi con al section page
-2. La bibliografia rischia di "sfondare" la pagina, fare attenzione (si può usare il comando '[allowframebreaks]' sul frame per permettere di dividerlo). 
+(ITALIAN)
+1. Bisogna rimuovere l'heading quando si usa la bibliografia ('heading=none'), altrimenti crea problemi con al section page
+2. La bibliografia rischia di "sfondare" la pagina, fare attenzione! Si può usare il comando '[allowframebreaks]' sul frame per permettere di dividerlo.
 3. I titoli di frame troppo lunghi rischiano di andare a coprire il logo in alto a destra; questo problema non può essere risolto, dovrete fare attenzione. Comunque la lunghezza massima consentita è MOLTO ampia.
+
