@@ -16,12 +16,12 @@ In order to use it you will have to
 2. add into an `images` folder the images you'll also find here,
 3. call as usual the `\usetheme{beunitn}` command in your beamer document; this will require setting the right options, i.e. `\usetheme[math]{beunitn}` or `\usetheme[physics]{beunitn}`.
 
-You should be able to fully customize the theme according to your personal preferences. See `NOTES` for a dummy test of its functionality.
+You should be able to fully customize the theme according to your personal preferences. Read below to learn about the dummy test(s) of its functionality.
 
 ## HOW TO CONTRIBUTE: 
 It is possible to contribute to the development by testing the package and informing us of possible errors or limitations. 
 
-Check `HOW TO USE` for more info.
+Check `tests/HOW_TO_USE` for some dummy tests of the package, you will find an interesting variety of them.
 
 ## NOTES:
 This theme is currently incomplete, but it's already possible to use it; be warned you'll may encounter some unresolved issues. It is also possible to just test it (see: `tests` folder). 
