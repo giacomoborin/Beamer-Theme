@@ -6,9 +6,7 @@ Latest version: `v0.2-beta2`, may 2021
 
 ![immagine](https://user-images.githubusercontent.com/64229723/115863144-54ed6c80-a435-11eb-870e-804b5819b2a7.png)
 
-### colours & themes
-
-The theme is currently available only in **math** and **physisc** versions, we'll soon add some other departments. We will also add different colours, and various other settings.
+**colours & themes:** The theme is currently available only in **math** and **physisc** versions, we'll soon add some other departments. We will also add different colours, and various other settings.
 
 ## HOW TO USE:
 The second beta release is available! However, the project is still marked as incomplete... therefore you might run into some issues.
@@ -21,7 +19,9 @@ In order to use it you will have to
 You should be able to fully customize the theme according to your personal preferences. See `NOTES` for a dummy test of its functionality.
 
 ## HOW TO CONTRIBUTE: 
-It is possible to contribute to the development by testing the package and informing us of possible errors or limitations. Check `HOW TO USE` for more info. 
+It is possible to contribute to the development by testing the package and informing us of possible errors or limitations. 
+
+Check `HOW TO USE` for more info.
 
 ## NOTES:
 This theme is currently incomplete, but it's already possible to use it; be warned you'll may encounter some unresolved issues. It is also possible to just test it (see: `tests` folder). 
