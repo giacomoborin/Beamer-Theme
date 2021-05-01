@@ -2,19 +2,21 @@
  
 This project aims to code a LaTeX beamer theme for master's & bachelor's degrees of the University of Trento (Italy), but also to provide a quasi-official theme for professors, students, et cetera working or studying at UniTn. As of now, this is a _non-official_ project. The theme will follow current guidelines for style and impagination.
 
-Latest version: `v0.1-beta1`, april 2021
+Latest version: `v0.2-beta2`, may 2021
 
 ![immagine](https://user-images.githubusercontent.com/64229723/115863144-54ed6c80-a435-11eb-870e-804b5819b2a7.png)
 
-The theme is currently available only in **math emerald**, we'll soon work on **biology cobalt** and **physics ruby**.
+### colours & themes
+
+The theme is currently available only in **math** and **physisc** versions, we'll soon add some other departments. We will also add different colours, and various other settings.
 
 ## HOW TO USE:
-The first beta release is available! However, the project is still marked as incomplete... therefore you might run into some issues.
+The second beta release is available! However, the project is still marked as incomplete... therefore you might run into some issues.
 
 In order to use it you will have to 
 1. insert in your main folder the .sty files you will find here,
 2. add into an `images` folder the images you'll also find here,
-3. call as usual the `\usetheme{beunitn}` command in your beamer document. 
+3. call as usual the `\usetheme{beunitn}` command in your beamer document; this will require setting the right options, i.e. `\usetheme[math]{beunitn}` or `\usetheme[physics]{beunitn}`.
 
 You should be able to fully customize the theme according to your personal preferences. See `NOTES` for a dummy test of its functionality.
 
@@ -32,3 +34,5 @@ This theme is currently incomplete, but it's already possible to use it; be warn
 - To edit the README file: [useful info](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 - Beamer appearance: [cheat sheet](http://www.cpt.univ-mrs.fr/~masson/latex/Beamer-appearance-cheat-sheet.pdf)
 - Beamer geometry sizes: [picture](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftex.stackexchange.com%2Fquestions%2F34367%2Fbeamer-frame-without-decorations-with-custom-margin&psig=AOvVaw1btF3iM-dko9MQgSazc4Ph&ust=1619707212640000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICm-dqVofACFQAAAAAdAAAAABAO)
+- Write a beamer theme, an example: [stackexchange](https://tex.stackexchange.com/questions/261185/issues-with-custom-beamer-theme)
+- Footline: [useful info](https://tex.stackexchange.com/questions/167648/beamer-navigation-symbols-inside-footline)
